@@ -1,4 +1,4 @@
-package memo;
+package com.jetsbee.memo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
