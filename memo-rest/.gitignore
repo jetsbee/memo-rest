@@ -26,3 +26,6 @@ bin
 # node
 node_modules
 node
+
+# webpack
+*.map

@@ -1,5 +1,16 @@
 # memo-rest
-Spring boot with Gradle 3.0
+Spring boot, React.js with Gradle 3.0
 
-# build command
+## build command
 ./gradlew clean build
+
+## Run
+gradle bootRun
+
+## Run with spring-boot-devtools
+Need two terminals - go to projectDir
+1. gradle build --continuous
+2. gradle bootRun
+
+## Webpack-dev-server
+npm start server (scripts in package.json)
