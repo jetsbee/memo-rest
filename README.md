@@ -2,15 +2,15 @@
 Spring boot, React.js with Gradle 3.0
 
 ## build command
-./gradlew clean build
+  ./gradlew clean build
 
 ## Run
-gradle bootRun
+  gradle bootRun
 
 ## Run with spring-boot-devtools
-Need two terminals - go to projectDir
-1. gradle build --continuous
-2. gradle bootRun
+  Need two terminals - go to projectDir
+  1. gradle build --continuous
+  2. gradle bootRun
 
 ## Webpack-dev-server
-npm start server (scripts in package.json)
+  npm start server (scripts in package.json)
