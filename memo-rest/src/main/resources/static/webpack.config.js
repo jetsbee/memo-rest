@@ -1,18 +1,18 @@
-var path = require('path');
+const path = require('path');
 
 module.exports = {
-    entry: './index.js',
+    entry:   './index.js',
     devtool: 'eval',
-    output: {
-        path: __dirname,
+    output:  {
+        path:     __dirname,
         filename: './dist/bundle.js'
     },
     devServer: {
-      port: 8081,
+      port:  8081,
       proxy: {
           '/**': {
-              target: 'http://localhost:8080',
-              secure: false,
+              target:      'http://localhost:8080',
+              secure:      false,
               prependPath: false
           }
       },
@@ -20,9 +20,9 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: path.join(__dirname, '.'),
+                test:    path.join(__dirname, '.'),
                 exclude: /(node_modules)/,
-                loader: 'babel'
+                loader:  'babel'
             }
         ]
     }
