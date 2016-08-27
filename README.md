@@ -1,5 +1,5 @@
 # memo-rest
-Spring boot, React.js with Gradle 3.0
+Spring boot, React.js, Redux with Gradle 3.0
 
 ## build command
   ./gradlew clean build
